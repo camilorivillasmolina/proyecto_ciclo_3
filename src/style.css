@@ -3,73 +3,44 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+.container1{
     width: 1200px;
-    background-color: #888888;
-    height: 2000px;
+    height: 240px;
     -ms-flex-item-align: center;
         align-self: center;
     margin: 0px auto;
     padding: 0 auto;
-}
-
-.header{
-    background-color: aqua;
-    height: auto;
-    
-}
-
-.container-menu{
-    height: 60px;
-    background-color: antiquewhite;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-
-}
-.container-logo{
-    width: 100%;
-    height: inherit;
-    background-color: azure;
-    text-align: center;
-}
-
-.site-title{
-    margin: 0;
-    padding: 0.36em 0;
-}
-
-.container-imagen{
     background-image: url('./bg.png');
-    height: 240px;
-    /* margin-bottom: 20px; */
 }
 
-.nav-list{
-    padding: 0.25em 0;
-    list-style-type: none;
-    text-align: end;
-    width: 100%
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.nav-element{
-    padding: 1em 15px;
-    display: inline-block;
+.main-menu__item{
+    line-height: 6;
+}
+
+.main-menu__link{
     text-decoration: none;
-    color: #3e3e3e;
-
-}
-
-.nav-element:hover{
-    text-decoration: underline;
+    font-size: 2em;
+    color: #B81004;
     font-weight: bold;
 }
 
-.image-text{
-    margin: 0;
-    padding: 9% 0;
-    text-align: center;
+.container{
+    width: 1200px;
+    background-color: #880088;
+    height: 1600px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
 }
 
 .section-1{
@@ -113,17 +84,25 @@ body{
     margin-top: 5px;
     text-align: center;
 }
+
 .col-5{
-    width: 19%;
+
+    width: 24%;
+
     height: 470px;
-    display: inline-block;
+
+    display: inline-table;
+
     margin: 5px 4px 0;
+
     text-align: center;
+
     background-color: rgb(255, 177, 148);
+
 }
 
 .service-content{
-    padding: 0.5em 0;
+    padding: 0.1em 0;
 }
 .service-text{
     padding: 10px;
@@ -179,7 +158,7 @@ body{
 
 
 .fa-ambulance.news-logo{
-    padding: 0.25em 0;
+    background-image: url('./fbfoto.png');
 }
 
 
@@ -195,28 +174,4 @@ body{
 
 hr{
     color: white;
-}
-
-.main-menu{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.main-menu__item{
-    line-height: 3;
-}
-
-.main-menu__link{
-    text-decoration: none;
-    font-size: 1em;
-    color: #3e3e3e;
-}
-
-.main-menu__link:hover{
-    text-decoration: underline;
-    font-weight: bold;
 }
