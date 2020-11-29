@@ -2,6 +2,16 @@ body{
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container{
+    width: 1200px;
+    background-color: #888888;
+    height: 2000px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
+}
 .imgp{
     width:20%
 }
@@ -9,10 +19,83 @@ body{
     width: 1200px;
     height: 240px;
     -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
     margin: 0px auto;
     padding: 0 auto;
     background-image: url('./bg.png');
+}
+
+.header{
+    background-color: aqua;
+    height: auto;
+}
+
+.container-menu{
+    height: 60px;
+    background-color: antiquewhite;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+
+}
+.container-logo{
+    width: 100%;
+    height: inherit;
+    background-color: azure;
+    text-align: center;
+}
+
+.site-title{
+    margin: 0;
+    padding: 0.36em 0;
+}
+
+.container-imagen{
+    background-image: url('./bg.png');
+    height: 240px;
+    /* margin-bottom: 20px; */
+}
+
+.nav-list{
+    padding: 0.25em 0;
+    list-style-type: none;
+    text-align: end;
+    width: 100%
+}
+
+.nav-element{
+    padding: 1em 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #3e3e3e;
+
+}
+
+.nav-element:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.section-1{
+    background-color: rebeccapurple;
+    padding-bottom: 10px;
+}
+
+.section-2{
+    background-color: gainsboro;
+    padding-bottom: 10px;
+}
+
+.section-3{
+    background-color: coral;
+    padding-bottom: 10px;
+}
+
+.footer{
+    background-color: yellowgreen;
+    bottom: 0px;
+    padding-bottom: 10px;
 }
 
 .main-menu{
@@ -35,75 +118,45 @@ body{
     font-weight: bold;
 }
 
-.container{
-    width: 1200px;
-    background-color: #880088;
-    height: 1600px;
-    -ms-flex-item-align: center;
-        align-self: center;
-    margin: 0px auto;
-    padding: 0 auto;
-}
-
-.section-1{
-    height: 500px;
-    background-color: rebeccapurple;
-
-}
-
-.section-2{
-    height: 500px;
-    background-color: gainsboro;
-}
-
-.section-3{
-    height: 500px;
-    background-color: coral;
-}
-
-.footer{
-    height: 200px;
-    background-color: yellowgreen;
-    bottom: 0px;
-    /* position: fixed; */
-    /* width: 1200px; */
-}
-
 .section-text{
     margin: 0;
+    padding: 10px 0;
     color: #3e3e3e;
     background: white;
     font-weight: bold;
     text-align: center;
+    font-size: 22px;
+}
+
+.col-2  {
+    width: 45%;
+    display: inline-block;
+    padding: 0 15px;
+    vertical-align: top;
 }
 
 .col-3{
-    width: 33%;
+    width: 33.08%;
     height: 470px;
     background-color: aquamarine;
-    display: inline-flex;
+    display: inline-block;
+    padding: -15px;
     margin-top: 5px;
     text-align: center;
+    vertical-align: top;
 }
-
 .col-5{
-
-    width: 24%;
-
+    width: 19%;
     height: 470px;
-
-    display: inline-table;
-
+    display: inline-block;
     margin: 5px 4px 0;
-
     text-align: center;
-
     background-color: rgb(255, 177, 148);
-
+    vertical-align: top;
 }
 
 .service-content{
-    padding: 0.1em 0;
+    padding: 0.5em 0;
 }
 .service-text{
     padding: 10px;
@@ -157,12 +210,6 @@ body{
     text-align: right;
 }
 
-
-.fa-ambulance.news-logo{
-    background-image: url('./fbfoto.png');
-}
-
-
 .news-url{
     font-size: 10px;
     float: right;
@@ -175,4 +222,9 @@ body{
 
 hr{
     color: white;
+}
+
+.main-menu__link:hover{
+    text-decoration: underline;
+    font-weight: bold;
 }
