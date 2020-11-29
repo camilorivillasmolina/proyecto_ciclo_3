@@ -8,15 +8,26 @@ body{
     background-color: #888888;
     height: 2000px;
     -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
     margin: 0px auto;
     padding: 0 auto;
+}
+.imgp{
+    width:20%
+}
+.container1{
+    width: 1200px;
+    height: 240px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
+    background-image: url('./bg.png');
 }
 
 .header{
     background-color: aqua;
     height: auto;
-    
 }
 
 .container-menu{
@@ -85,6 +96,26 @@ body{
     background-color: yellowgreen;
     bottom: 0px;
     padding-bottom: 10px;
+}
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 6;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 2em;
+    color: #B81004;
+    font-weight: bold;
 }
 
 .section-text{
@@ -179,12 +210,6 @@ body{
     text-align: right;
 }
 
-
-.fa-ambulance.news-logo{
-    padding: 0.25em 0;
-}
-
-
 .news-url{
     font-size: 10px;
     float: right;
@@ -199,27 +224,7 @@ hr{
     color: white;
 }
 
-.main-menu{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.main-menu__item{
-    line-height: 3;
-}
-
-.main-menu__link{
-    text-decoration: none;
-    font-size: 1em;
-    color: #3e3e3e;
-}
-
 .main-menu__link:hover{
     text-decoration: underline;
     font-weight: bold;
 }
-
