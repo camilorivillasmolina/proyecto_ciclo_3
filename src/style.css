@@ -86,7 +86,6 @@ body{
     text-align: center;
 }
 
-
 .col-5{
 
     width: 24%;
@@ -161,7 +160,6 @@ body{
 
 .fa-ambulance.news-logo{
     background-image: url('./fbfoto.png');
-
 }
 
 
@@ -178,4 +176,3 @@ body{
 hr{
     color: white;
 }
-
